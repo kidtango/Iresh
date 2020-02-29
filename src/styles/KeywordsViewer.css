@@ -1,0 +1,21 @@
+.KeywordsViewer{
+    text-align: center;
+    width: 100%;
+}
+
+.KeywordsViewer .resetButton{
+    margin: 32px 10px 20px;
+}
+
+.KeywordsViewer .MuiAvatar-root.MuiChip-avatar{
+    width: 32px;
+    color: #616161;
+    height: 32px;
+    font-size: 1rem;
+    margin-right: -4px;
+}
+
+.KeywordsViewer .layerFilter .selectedLayer{
+    background: #aaa;
+}
+

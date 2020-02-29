@@ -1,0 +1,83 @@
+.knowledgeTreeForm .formTitle{
+    color: #000;
+}
+
+.knowledgeTreeForm{
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.knowledgeTreeForm > *{
+    margin: 10px 0 0;
+    display: inline-block !important;
+}
+
+.GeneralitiesForm{
+    width: 100%;
+}
+
+.GeneralitiesForm .ProjectProps button{
+    font-size: 9px;
+    padding: 2px;
+}
+
+.GeneralitiesForm .mapContainer{
+    width: 100%;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    outline: 1px solid #000;
+}
+
+#simple-tabpanel-0 > div{
+    padding: 5px 0px 0px !important;
+}
+
+.GeneralitiesForm .MuiButtonGroup-contained{
+    box-shadow: none !important;
+}
+
+.GeneralitiesForm .ProjectProps .selected{
+    background: #aaa;
+}
+
+.GeneralitiesForm .facilityTypeSelectContainer{
+    display: block !important;
+    margin: 10px 0 0;
+    
+}
+
+.GeneralitiesForm .facilityTypeSelectContainer > *{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.knowledgeTreeForm .MuiFormControl-root.MuiTextField-root {
+    width: 100% !important;
+    font-size: 10px;
+}
+
+input:-internal-autofill-previewed {
+    background-color: none;
+}
+
+.KnowledgeTree .collapsableFormContainer .formTitle{
+    cursor: pointer;
+}
+
+.KnowledgeTree .collapsableFormContainer .formTitle .MuiSvgIcon-root{
+    position: absolute;
+    right: 10px;
+}
+
+.KnowledgeTree .MuiExpansionPanelSummary-content{
+    font-size: 14px;
+    height: 20px;
+}
+
+.KnowledgeTree .MuiExpansionPanelSummary-content svg{
+    position: absolute;
+    right: 10px;
+}

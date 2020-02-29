@@ -1,0 +1,60 @@
+.Dashboard {
+    display: 'flex',
+}
+
+.irisLogo{
+    width: 60px;
+}
+
+.maanaLogo {
+    width: 55px;
+    position: absolute;
+    right: 20px;
+}
+
+.Dashboard-menuButton {
+    margin-left: 0px !important;
+    margin-right: 36px;
+}
+
+.MuiAppBar-colorPrimary {
+    background: #fff !important;
+}
+
+.sectionTitle {
+    font-family: 'B612 Mono', monospace;
+    white-space: nowrap;
+    color: #000;
+    font-weight: normal;
+}
+
+.Dashboard .mainWidgetExpansionPanel .mainWidgetExpansionPanelSummary::before{
+    content: ' ⬤ ';
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 13px;
+ }
+
+.Dashboard .mainWidgetExpansionPanel.riskManagementWidget .mainWidgetExpansionPanelSummary::before{
+   color: #ca0000;
+}
+
+.Dashboard .mainWidgetExpansionPanel.petroTechnicalWidget .mainWidgetExpansionPanelSummary::before{
+    color: #0000ff;
+ }
+
+ .Dashboard .mainWidgetExpansionPanel.businessWidget .mainWidgetExpansionPanelSummary::before{
+    color: #00aa00;
+ }
+
+ .Dashboard .riskKnowledge .knowledgeFilterIcon{
+    color: #ca0000;
+ }
+
+ .Dashboard .technicalKnowledge .knowledgeFilterIcon{
+    color: #0000ff;
+ }
+
+ .Dashboard .businessKnowledge .knowledgeFilterIcon{
+    color: #00aa00;
+ }

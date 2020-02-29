@@ -1,0 +1,202 @@
+.NConceptsContainer{
+  display: block !important;
+}
+
+.topConcept{
+  display: block;
+  width: 100%;
+  clear: both;
+  border-top: 1px solid #555;
+  padding: 10px 0;
+}
+
+.topConcept .topConceptContainer .schema{
+  position: relative;
+  min-height: 200px;
+}
+
+.topConcept .topConceptContainer .schema img{
+  max-height: 250px;
+}
+
+.topConcept > div{
+  display: inline-block;
+  vertical-align: top;
+  min-width: 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.topConcept  .indicatorBarContainer{
+  padding-top: 1px;
+}
+
+.topConcept  .indicatorBar{
+  position: relative;
+  background: linear-gradient( to left, #52ED82, #FCC984, #F87C7C);
+  height: 10px;
+  border-radius: 15px;
+}
+
+.topConcept  .indicatorBarContainer.compoundScoreContainer{
+  padding-top: 3px;
+  text-align: center;
+}
+
+.topConcept .medalContainer{
+  position: relative;
+}
+
+.topConcept .medalContainer img{
+  width: 29px;
+  position: absolute;
+  z-index: 0;
+  right: 3.5px;
+  top: 5px;
+}
+
+.topConcept .medalContainer span{
+  width: 17px;
+  position: absolute;
+  z-index: 0;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+}
+
+.topConcept  .indicatorBarContainer.compoundScoreContainer .indicatorBar{
+  height: 20px;
+  border-radius: 25px;
+}
+
+.topConcept  .indicatorBar .indicatorTriangle{
+  width: 0px;
+  height: 6px;
+  border: 6px solid transparent;
+  border-top: 10px solid #000;
+  position: absolute;
+  left: 70%;
+  transition: left 1s ease-out;
+  display: inline-block;
+}
+
+
+.topConcept  .indicatorBarContainer.compoundScoreContainer .indicatorBar .triangleLimiter{
+  width: 90%;
+  display: inline-block;
+  position: relative; 
+}
+
+.topConcept  .indicatorBarContainer.compoundScoreContainer .indicatorBar .indicatorTriangle{
+  height: 13px;
+  border: 13px solid transparent;
+  border-top: 20px solid #000;
+}
+
+.topConcept  .indicatorBar .indicatorRed{
+  width: 2px;
+  height: 100%;
+  background: #f00;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+}
+
+.topConcept  .indicatorBar .indicatorBlue{
+  width: 2px;
+  height: 100%;
+  background: #00f;
+  display: inline-block;
+  position: absolute;
+  left: 90%;
+}
+
+.topConcept .technicalDetail{
+  text-align: left;
+}
+
+.topConcept .scoresContainer{
+  margin-top: 10px;
+}
+
+.topConcept .scoresContainer .technical{
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.topConcept .scoresContainer .technical > *{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.topConcept .scoresContainer .technical .technicalControl{
+  text-align: center;
+}
+
+.topConcept .scoresContainer .technical .technicalInfo{
+  height: auto;
+}
+
+.topConcept .scoresContainer .technical .technicalInfo .title{
+  font-weight: bold; 
+  display: inline-block;
+  margin: 0 0 5px 0;
+}
+
+.topConcept .scoresContainer .technical .technicalInfo .technicalInfoContainer{
+  white-space: normal;
+  margin: 4px;
+  padding: 2px;
+  /*background: rgb(228, 245, 228);
+  outline: 1px solid #000;*/
+}
+
+.topConcept .numericalIndicators {
+  margin: 5px 0;
+  text-align: right;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.topConcept .numericalIndicators > div {
+  display: inline-block;
+  height: 23px;
+  width: 34px;
+  margin-left: 5px;
+}
+
+.topConcept .numericalIndicators > div > span{
+  outline: 2px solid #c6bfbf;
+  text-align: center;
+  width: 27px;
+  height: 17px;
+  display: inline-block;
+  margin: 0px 10px 0 5px;
+  font-size: 13px;
+  background: #ccc;
+}
+  
+.topConcept .compoundScore{
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.topConcept .ranking{
+  position: absolute;
+  left: 0;
+}
+
+.topConcept .wellTypesList{
+  text-align: left;
+}
+
+.topConcept .wellTypesList .wellTypesListTitle{
+  font-weight: bold;
+}
+
+.topConcept .allBarIndicatorsContainer{
+  margin-top: 10px;
+}

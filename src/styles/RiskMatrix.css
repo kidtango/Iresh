@@ -1,0 +1,133 @@
+.riskMatrix {
+    color: #000;
+    width: 100%;
+}
+
+.riskMatrix .riskMatrixChart{
+    /* width: 259px; */
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.riskMatrix .matrixCell{
+    border-radius: 20px 20px;
+    width: 61px;
+    height: 70px;
+    display: inline-block;
+    margin: 4px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    color: #000;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.riskMatrix .matrixCell.faded{
+    opacity: 0.5;
+}
+
+.riskMatrix .matrixRow.headerRow {
+    text-align: center;
+    padding: 0 0 0 17px;
+}
+
+.riskMatrix .matrixRow .colTitle{
+    width: 61px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.riskMatrix .matrixRow .rowTitle{
+    padding-top: 27px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: top;
+}
+
+.riskMatrix .matrixCell.red{
+    background-color: #F87C7C;
+}
+
+.riskMatrix .matrixCell.yellow{
+    background-color: #FCC984;
+}
+
+.riskMatrix .matrixCell.green{
+    background-color: #52ED82;
+}
+
+.riskMatrix .matrixCell .lowPresicion{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    margin-left: -25%;
+    font-size: 18px;
+    color: #fff;
+    background: #f00;
+    z-index: 999;
+    border-radius: 25px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.riskMatrix .matrixCell .ocurrences{
+    font-size: 27px;
+    display: block;
+    font-weight: bold;
+}
+
+.riskMatrix .matrixCell .certainity{
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block; 
+}
+
+.riskMatrix .compoundRiskIndicator{
+    margin: 15px 0 10px;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    color: #000;
+    margin-left: 22px;
+}
+
+.riskMatrix .compoundRiskIndicator .triangle{
+    width: 5px;
+    height: 5px;
+    border: 5px solid transparent;
+    border-top: 10px solid #000;
+    position: absolute;
+    left: 70%;
+    transition: left ease-out 1s;
+}
+
+.riskMatrix .compoundRiskIndicator .bar{
+    background: linear-gradient( to left, #52ED82, #FCC984, #F87C7C);
+    height: 10px;
+    border-radius: 10px;
+}
+
+.riskMatrix .severityTitle{
+    text-align: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: -19%;
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.riskMatrix .probabilityTitle{
+    font-size: 20px;
+    padding: 0 0 0 20px;
+}

@@ -1,0 +1,531 @@
+{
+    "nodes": [
+        {
+            "id": "PLANT",
+            "name": "PLANT",
+            "itemStyle": {
+                "normal": {
+                    "color": "#18171f"
+                }
+            },
+            "symbolSize": 60,
+            "x": 0,
+            "y": 0,
+            "attributes": {
+                "modularity_class": "PLANT"
+            }
+        },
+        {
+            "id": "PROCESS",
+            "name": "PROCESS",
+            "itemStyle": {
+                "normal": {
+                    "color": "#49465c"
+                }
+            },
+            "symbolSize": 45,
+            "x": 200,
+            "y": 0,
+            "attributes": {
+                "modularity_class": "PROCESS"
+            }
+        },
+        {
+            "id": "PEOPLE",
+            "name": "PEOPLE",
+            "itemStyle": {
+                "normal": {
+                    "color": "#a0a0a0"
+                }
+            },
+            "symbolSize": 70,
+            "x": -200,
+            "y": 0,
+            "attributes": {
+                "modularity_class": "PEOPLE"
+            }
+        },
+        {
+            "id": "production",
+            "name": "production",
+            "itemStyle": {
+                "normal": {
+                    "color": "#fcc984"
+                }
+            },
+            "symbolSize": 20,
+            "x": -150,
+            "y": -250,
+            "attributes": {
+                "modularity_class": "H1"
+            }
+        },
+        {
+            "id": "loss",
+            "name": "loss",
+            "itemStyle": {
+                "normal": {
+                    "color": "#fcc984"
+                }
+            },
+            "symbolSize": 20,
+            "x": 50,
+            "y": -160,
+            "attributes": {
+                "modularity_class": "H1"
+            }
+        },
+        {
+            "id": "scale",
+            "name": "scale",
+            "itemStyle": {
+                "normal": {
+                    "color": "#52ed82"
+                }
+            },
+            "symbolSize": 20,
+            "x": -100,
+            "y": -80,
+            "attributes": {
+                "modularity_class": "H1"
+            }
+        },
+        {
+            "id": "tree",
+            "name": "tree",
+            "itemStyle": {
+                "normal": {
+                    "color": "#52ed82"
+                }
+            },
+            "symbolSize": 20,
+            "x": -300,
+            "y": -200,
+            "attributes": {
+                "modularity_class": "H2"
+            }
+        },
+        {
+            "id": "low",
+            "name": "low",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": -287.89572,
+            "y": 110.462326,
+            "attributes": {
+                "modularity_class": "H2"
+            }
+        },
+        {
+            "id": "delivery",
+            "name": "delivery",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": -126.4831,
+            "y": 68.10622,
+            "attributes": {
+                "modularity_class": "H2"
+            }
+        },
+        {
+            "id": "corrosion",
+            "name": "corrosion",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": -127.07365,
+            "y": -113.05923,
+            "attributes": {
+                "modularity_class": "H3"
+            }
+        },
+        {
+            "id": "wells",
+            "name": "wells",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 353.66415,
+            "y": -205.89165,
+            "attributes": {
+                "modularity_class": "H3"
+            }
+        },
+        {
+            "id": "integrity",
+            "name": "integrity",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 165.43939,
+            "y": 239.7736,
+            "attributes": {
+                "modularity_class": "H3"
+            }
+        },
+        {
+            "id": "causing",
+            "name": "causing",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 70,
+            "y": -70,
+            "attributes": {
+                "modularity_class": "M3"
+            }
+        },
+        {
+            "id": "flowline",
+            "name": "flowline",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 194.82993,
+            "y": -104.78036,
+            "attributes": {
+                "modularity_class": "M2"
+            }
+        },
+        {
+            "id": "mainfold",
+            "name": "mainfold",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 97.6618,
+            "y": 135.18481,
+            "attributes": {
+                "modularity_class": "M2"
+            }
+        },
+        {
+            "id": "insufficient",
+            "name": "insufficient",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 355.78366,
+            "y": -74.882454,
+            "attributes": {
+                "modularity_class": "L1"
+            }
+        },
+        {
+            "id": "inability",
+            "name": "inability",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 315.2961,
+            "y": -46.167564,
+            "attributes": {
+                "modularity_class": "L2"
+            }
+        },
+        {
+            "id": "injection",
+            "name": "injection",
+            "itemStyle": {
+                "normal": {
+                    "color": "#F87C7C"
+                }
+            },
+            "symbolSize": 20,
+            "x": 414.29285,
+            "y": -189.3104,
+            "attributes": {
+                "modularity_class": "L3"
+            }
+        },
+        {
+            "id": "methanol",
+            "name": "methanol",
+            "itemStyle": {
+                "normal": {
+                    "color": "#fcc984"
+                }
+            },
+            "symbolSize": 20,
+            "x": -30.1917,
+            "y": -128.17537,
+            "attributes": {
+                "modularity_class": "L2"
+            }
+        },
+        {
+            "id": "riser",
+            "name": "riser",
+            "itemStyle": {
+                "normal": {
+                    "color": "#52ed82"
+                }
+            },
+            "symbolSize": 20,
+            "x": 236.17184,
+            "y": -82.7286825,
+            "attributes": {
+                "modularity_class": "M2"
+            }
+        },
+        {
+            "id": "containment",
+            "name": "containment",
+            "itemStyle": {
+                "normal": {
+                    "color": "#52ed82"
+                }
+            },
+            "symbolSize": 20,
+            "x": 202.55225,
+            "y": 116.421427,
+            "attributes": {
+                "modularity_class": "M2"
+            }
+        },
+        {
+            "id": "slugging",
+            "name": "slugging",
+            "itemStyle": {
+                "normal": {
+                    "color": "#fcc984"
+                }
+            },
+            "symbolSize": 20,
+            "x": 455.81955,
+            "y": -115.45826,
+            "attributes": {
+                "modularity_class": "M2"
+            }
+        },
+        {
+            "id": "flow",
+            "name": "flow",
+            "itemStyle": {
+                "normal": {
+                    "color": "#fcc984"
+                }
+            },
+            "symbolSize": 20,
+            "x": 516.40784,
+            "y": 47.242233,
+            "attributes": {
+                "modularity_class": "M1"
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "103",
+            "name": null,
+            "source": "PLANT",
+            "target": "injection",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "104",
+            "name": null,
+            "source": "PLANT",
+            "target": "inability",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": null,
+            "name": null,
+            "source": "PLANT",
+            "target": "insufficient",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "105",
+            "name": null,
+            "source": "PLANT",
+            "target": "mainfold",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "107",
+            "name": null,
+            "source": "PLANT",
+            "target": "flowline",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "108",
+            "name": null,
+            "source": "PLANT",
+            "target": "causing",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "112",
+            "name": null,
+            "source": "PLANT",
+            "target": "integrity",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "98",
+            "name": null,
+            "source": "PROCESS",
+            "target": "flow",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "101",
+            "name": null,
+            "source": "PROCESS",
+            "target": "slugging",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "100",
+            "name": null,
+            "source": "PROCESS",
+            "target": "containment",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "99",
+            "name": null,
+            "source": "PROCESS",
+            "target": "riser",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "102",
+            "name": null,
+            "source": "PROCESS",
+            "target": "methanol",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "110",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "wells",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "111",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "corrosion",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "109",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "delivery",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": null,
+            "name": null,
+            "source": "PEOPLE",
+            "target": "low",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "113",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "tree",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": null,
+            "name": null,
+            "source": "PEOPLE",
+            "target": "scale",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "115",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "loss",
+            "lineStyle": {
+                "normal": {}
+            }
+        },
+        {
+            "id": "119",
+            "name": null,
+            "source": "PEOPLE",
+            "target": "production",
+            "lineStyle": {
+                "normal": {}
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "iris-maana",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.23",
+    "@material-ui/styles": "^4.2.1",
+    "apollo-boost": "^0.4.3",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link": "^1.2.12",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-http": "^1.5.15",
+    "apollo-utilities": "^1.3.2",
+    "auth0-lock": "^11.17.0",
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.14",
+    "pigeon-maps": "^0.13.0",
+    "pigeon-marker": "^0.3.4",
+    "pigeon-overlay": "^0.2.3",
+    "react": "^16.8.0",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-files": "^2.4.8",
+    "react-lazyload": "^2.6.2",
+    "react-ratings-declarative": "^3.4.1",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.5",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^5.1.0",
+    "typeface-roboto": "0.0.54",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}

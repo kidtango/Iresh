@@ -1,0 +1,11 @@
+.InsightViewer{
+    width: 100%;
+}
+
+.InsightViewer .graphFilters{
+    padding: 10px 0;
+}
+
+.InsightViewer .graphFilters .selectedFilter{
+    background: #aaa;
+}

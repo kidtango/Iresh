@@ -1,0 +1,25 @@
+.files-dropzone{
+    position: relative;
+}
+
+.files-dropzone .filesInstructions{
+    display: none;
+}
+
+.files-dropzone .filesInstructions.dragFiles{
+    display: block;
+}
+
+.files-dropzone.files-dropzone-active .filesInstructions.dropFiles{
+    display: block;
+}
+
+.files-dropzone.files-dropzone-active .filesInstructions.dragFiles{
+    display: none;
+}
+
+.riskDisciplines {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}

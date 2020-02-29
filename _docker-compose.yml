@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  iris:
+    container_name: iris_react
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+      - '/package.json'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development

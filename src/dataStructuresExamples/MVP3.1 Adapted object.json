@@ -1,0 +1,306 @@
+{
+    "id": "129",
+    "risk": {
+        "id": "129",
+        "title": "Flexible Schedule",
+        "description": "Schedule Delay\nEquipment Design is late.",
+        "cause": "Barracuda project takes precedence.",
+        "consequence": "Design data delayed.\n\nIncreased schedule.",
+        "topology": {
+            "id": "1",
+            "onshoreOffshore": "Offshore",
+            "upstreamDownstream": "Upstream",
+            "oilGas": "Oil",
+            "facilityType": "FPSO",
+            "__typename": "Topology"
+        },
+        "discipline": {
+            "id": "6",
+            "name": "Execution",
+            "__typename": "DisciplineRisk"
+        },
+        "__typename": "Risk"
+    },
+    "engineeringModule": {
+        "id": "6",
+        "name": "Subsea Proudction System",
+        "topology": {
+            "id": "1",
+            "onshoreOffshore": "Offshore",
+            "upstreamDownstream": "Upstream",
+            "oilGas": "Oil",
+            "facilityType": "FPSO",
+            "__typename": "Topology"
+        },
+        "hardwares": [
+            {
+                "id": "1",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "2",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "3",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "4",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "5",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "6",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "7",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "8",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "9",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "10",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "11",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "12",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "13",
+                "__typename": "Hardware"
+            },
+            {
+                "id": "14",
+                "__typename": "Hardware"
+            }
+        ],
+        "criticality": "High",
+        "__typename": "EngineeringModule"
+    },
+    "hardwareFailures": [],
+    "processFailures": [
+        {
+            "id": "23",
+            "process": {
+                "id": "18",
+                "__typename": "Process"
+            },
+            "possibleFailure": {
+                "id": "31",
+                "__typename": "Failure"
+            },
+            "description": "",
+            "likelihood": "1",
+            "severity": "3",
+            "risk": {
+                "id": "129",
+                "__typename": "Risk"
+            },
+            "__typename": "ProcessFailure"
+        }
+    ],
+    "peopleFailures": [
+        {
+            "id": "27",
+            "role": {
+                "id": "20",
+                "__typename": "Role"
+            },
+            "possibleFailure": {
+                "id": "52",
+                "__typename": "Failure"
+            },
+            "description": "",
+            "likelihood": "1",
+            "severity": "3",
+            "risk": {
+                "id": "129",
+                "__typename": "Risk"
+            },
+            "__typename": "PeopleFailure"
+        }
+    ],
+    "__typename": "Risk",
+    "severity": "1",
+    "likelihood": "1",
+    "confidenceLevel": 0.7403314917127072,
+    "lowConfidence": true,
+    "score": 0.1111111111111111,
+    "contributors": [
+        {
+            "id": "d30900a2-e978-4f12-8a60-2b7c9c38268b",
+            "featureName": "id",
+            "featureValue": "129",
+            "weight": 0.51,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "4202f902-d274-4dc6-b469-882954c62a71",
+            "featureName": "consequence",
+            "featureValue": "design",
+            "weight": 0.23,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "8ccacb2e-c40f-4d2c-9be0-4d1c584e4b6e",
+            "featureName": "title",
+            "featureValue": "schedule",
+            "weight": -0.19,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "d5e26ca5-5037-4cde-b01d-cbdd69009a92",
+            "featureName": "title",
+            "featureValue": "flexible",
+            "weight": 0.18,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "259b81c3-2470-406b-8f59-590e11abc773",
+            "featureName": "cause",
+            "featureValue": "barracuda",
+            "weight": 0.15,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "618f8181-b87f-4549-9fcc-c41b46638e4c",
+            "featureName": "cause",
+            "featureValue": "precedence",
+            "weight": 0.15,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "fee73750-1190-43c4-95a4-771b43415455",
+            "featureName": "cause",
+            "featureValue": "takes",
+            "weight": 0.15,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "df66962d-0b4a-451e-bf24-97315535b633",
+            "featureName": "description",
+            "featureValue": "late",
+            "weight": 0.14,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "e1e0945b-1b7e-40de-b5a6-90b8ae59753b",
+            "featureName": "description",
+            "featureValue": "schedule",
+            "weight": 0.11,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "215498c8-cd99-46a7-a3c0-c0dc6ca7e968",
+            "featureName": "description",
+            "featureValue": "design",
+            "weight": 0.1,
+            "__typename": "Contributor"
+        }
+    ],
+    "recommends": [
+        {
+            "id": "c43a4b38-250a-4c35-9ff9-c7bd4638842a",
+            "featureName": "consequence",
+            "featureValue": "production",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "0411ac89-2677-406e-972c-c2350ad45801",
+            "featureName": "consequence",
+            "featureValue": "loss",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "94d958ca-15aa-4501-94ee-f3f57e41d5b9",
+            "featureName": "id",
+            "featureValue": "101",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "f6a36246-0f0b-4d52-8f2a-58ebbc4919ec",
+            "featureName": "id",
+            "featureValue": "102",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "0b9627c1-a31a-4ca5-91c8-5e4fcb581ea3",
+            "featureName": "description",
+            "featureValue": "increased",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "91b27dab-b1cd-4005-b7ac-8ee76ab759a6",
+            "featureName": "description",
+            "featureValue": "impact",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "5990d5fa-1e8e-47ed-b4a2-ab0c47ad51cf",
+            "featureName": "id",
+            "featureValue": "131",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "350ae7ea-e4c0-42bd-b385-f7d2da27a391",
+            "featureName": "title",
+            "featureValue": "people",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "5adbd25a-01e3-4ebb-8d63-d7dae0cbead6",
+            "featureName": "id",
+            "featureValue": "100",
+            "weight": 1,
+            "__typename": "Contributor"
+        },
+        {
+            "id": "d0cead81-27b7-4296-9266-fc4daf1fef06",
+            "featureName": "id",
+            "featureValue": "19",
+            "weight": 1,
+            "__typename": "Contributor"
+        }
+    ],
+    "title": "Flexible Schedule",
+    "description": "Schedule Delay\nEquipment Design is late.",
+    "cause": "Barracuda project takes precedence.",
+    "consequence": "Design data delayed.\n\nIncreased schedule.",
+    "topology": {
+        "id": "1",
+        "onshoreOffshore": "Offshore",
+        "upstreamDownstream": "Upstream",
+        "oilGas": "Oil",
+        "facilityType": "FPSO",
+        "__typename": "Topology"
+    },
+    "discipline": {
+        "id": "6",
+        "name": "Execution",
+        "__typename": "DisciplineRisk"
+    }
+}

@@ -1,0 +1,15 @@
+diff a/ui/src/components/KnowledgeTree.js b/ui/src/components/KnowledgeTree.js	(rejected hunks)
+@@ -113,13 +113,6 @@
+   };
+ }
+ 
+-const useStyles = makeStyles(theme => ({
+-  root: {
+-    flexGrow: 1,
+-    backgroundColor: theme.palette.background.paper,
+-    color: '#000'
+-  },
+-}));
+ // export default function KnowledgeTree(props) {
+ export default class RiskStreamList extends React.Component {
+ 

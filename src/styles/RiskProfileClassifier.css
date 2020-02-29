@@ -1,0 +1,29 @@
+.RiskProfileClassifier{
+    width: 100%;
+}
+
+.MuiExpansionPanelSummary-root.Mui-expanded {
+    min-height: 64px;
+    background: #f5f2f2;
+}
+
+.RiskProfileClassifier .mainWidgetExpansionPanelSummary .MuiSvgIcon-root{
+    position: absolute;
+    right: 10px;
+}
+
+.RiskProfileClassifier .mainWidgetExpansionPanelSummary .Mui-expanded .ArrowUpIcon{
+    display: block;
+}
+
+.RiskProfileClassifier .ArrowUpIcon{
+    display: none;
+}
+
+.RiskProfileClassifier .Mui-expanded .ArrowDownIcon{
+    display: none;
+}
+
+.RiskProfileClassifier .ArrowDownIcon{
+    display: block;
+}

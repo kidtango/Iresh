@@ -1,0 +1,152 @@
+.coloredPaper{
+    border-radius: 0;
+    margin: 10px 3px;
+    position: relative;
+    text-align: left;
+    color: #000;
+    padding: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.scrollableFullHeighPaper{
+    height: 75vh;
+    overflow: scroll;
+    position: relative;
+}
+
+.coloredPaper.red{
+    border-left: #F87C7C 8px solid;
+}
+
+.coloredPaper.yellow{
+    border-left: #fcc984 8px solid;
+}
+
+.coloredPaper.green{
+    border-left: #52ed82 8px solid;
+}
+
+.coloredPaper em{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.coloredPaper.red em{
+    background: #F87C7C;
+    background: rgba(248, 124, 124, 0.4);
+}
+
+.coloredPaper.yellow em{
+    background: #fcc984;
+    background: rgba(252, 201, 132, 0.4);
+    
+}
+
+.coloredPaper.green em{
+    background: #52ed82;
+    background: rgba(82, 237, 130, 0.4);
+}
+
+.matrixScores{
+    display: block;
+    float: right;
+    padding: 3px;
+}
+
+.matrixScores > div{
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.matrixScores > div span{
+    display: block;
+}
+
+.matrixScores > div span.value{
+    outline: 1px solid #888;
+}
+
+.coloredPaper .description{
+    display: inline-block;
+    text-align: left;
+    width: 98%;
+}
+
+.coloredPaper .description .riskWordsMatched{
+    font-size: 14px;
+    overflow: hidden;
+    float: left;
+    height: 30px;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    position: relative;
+    cursor: pointer;
+    margin: 5px 0;
+    line-height: 18px;
+    width: 100%;
+}
+
+.coloredPaper .description label.riskWordsMatched{
+    display: block;
+    outline: 1px solid #888; 
+    overflow: visible;
+    min-height: 58px;
+}
+
+.coloredPaper .description .title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+    float: left;
+    cursor: pointer;
+    max-width: 61%;
+}
+
+.coloredPaper .description .riskWordsMatched textarea{
+    display: block;
+    border: none;
+    resize: none;
+}
+
+.colordPaper .description .riskWordsMatched::after,
+.colordPaper .description .title::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.coloredPaper .ellipsisButton{
+    display: inline-block;
+    background: #888;
+    border: 1px solid #555;
+}
+
+.coloredPaper .description .riskWordsMatched .red{
+    color: #f87c7c;
+    font-weight: bolder;
+}
+
+.coloredPaper .description .riskWordsMatched .yellow{
+    color: #fcc984;
+    font-weight: bolder;
+}
+
+.coloredPaper .editButton {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    top: -30px;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+.coloredPaper .editButton .MuiSvgIcon-root-114 {
+    width: 13px;
+}
+
+.coloredPaper .editButton svg {
+    font-size: 17px;
+}

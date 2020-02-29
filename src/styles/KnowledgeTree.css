@@ -1,0 +1,71 @@
+.KnowledgeTree{
+
+}
+
+.KnowledgeTree .clear{
+    clear: both;
+}
+
+.KnowledgeTree .blue{
+    color: #00f;
+}
+
+.KnowledgeTree .red{
+    color: #f00;
+}
+
+.KnowledgeTree .green{
+    color: #0f0;
+}
+
+.KnowledgeTree .gray{
+    color: #aaa;
+}
+
+.KnowledgeTree .toBeCompleted .MuiTreeItem-label{
+    text-align: left;
+ }
+
+ .KnowledgeTree .explanation{
+     text-align: left;
+ }
+
+ .KnowledgeTree .explanation > div{
+     display: inline-block;
+     font-size: 13px;
+     padding-right: 8px;
+     margin-bottom: 10px;
+ }
+
+.KnowledgeTree .toBeCompleted.done .MuiTreeItem-label::after,
+.KnowledgeTree .explanation .done::after{
+   content: ' ⬤';
+   font-size: 13px;
+}
+
+.KnowledgeTree .toBeCompleted.partial .MuiTreeItem-label::after,
+.KnowledgeTree .explanation .partial::after{
+    content: ' ◐';
+    font-size: 14px;
+}
+
+.KnowledgeTree .toBeCompleted.empty .MuiTreeItem-label::after,
+.KnowledgeTree .explanation .empty::after{
+    content: ' \25EF';
+    font-size: 10px;
+}
+
+.KnowledgeTree .toBeCompleted .MuiTreeItem-label::after{
+    content: '';
+    color: #000;
+    font-size: 15px;
+}
+
+.KnowledgeTree .toBeCompleted .MuiTreeItem-group .MuiTreeItem-content .MuiTreeItem-label::after{
+    content: none;
+    display: none;
+}
+
+.MuiTabs-root{
+    color: #000;
+}

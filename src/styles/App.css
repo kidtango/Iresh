@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Data-load {
+  color: grey;
+}
+
+.Data-error {
+  color: red;
+}
+
+.Service-list {
+  padding: 0;
+  list-style-type: none;
+  color: green;
+}
+
+.clear{
+  clear: both;
+}
+
+.headerPaper{
+  border-left: red 8px solid;
+  margin: 0 3px;
+  position: relative;
+  text-align: left;
+  color: #000;
+  padding: 3px;
+  margin-bottom: 3px;
+  border-left-color: #888;
+  /* border-left-width: 4px; */
+  margin-bottom: 5px;
+  border-radius: 0;
+}
+
+.headerPaper .title{
+  display: inline-block;
+  padding: 5px 0 0;
+}
+
+.headerPaper .filters{
+  float: right;
+}
+
+
+.headerPaper .radioGroup > label{
+  display: block;
+}
+
+.headerPaper .filters .sortAndOrder{
+  display: block;
+  float: right;
+  padding: 3px;
+}
+
+.headerPaper .filters .filterControls{
+  display: block;
+  height: 100px;
+  padding: 3px;
+  clear: both;
+  width: 100%;
+}
+
+.headerPaper .filters span{
+  margin: 0 0 0 3px;
+}
+
+.headerPaper::after{
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.RiskProfileClassifier .MuiExpansionPanelDetails-root {
+  padding: 0;
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
